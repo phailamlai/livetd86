@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <title>Proxy Web</title>
   <style>
-    /* CSS bạn muốn áp dụng cho trang */
-    body {
-      margin: 0;
-      background: #111;       /* đổi màu nền */
-      color: white;           /* chữ màu trắng */
-    }
+
+   html, body {
+  height: auto;
+  min-height: 100%;
+  overflow-y: auto !important;
+  }
     iframe {
       width: 100vw;
       height: 100vh;
@@ -17,7 +17,7 @@
       overflow: auto;
     }
 
-    /* Ví dụ ép hiện thanh scroll */
+    
     ::-webkit-scrollbar {
       width: 8px;
       background: #333;
